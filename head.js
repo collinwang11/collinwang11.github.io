@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.nav_1').click(function(){
-        $("#Home").fadeIn(1000);
+        $("#Home").show();
         $("#Education").hide();
         $("#Experience").hide();
         $("#Portfolio").hide();
@@ -9,7 +9,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.nav_2').click(function(){
        $("#Home").hide();
-        $("#Education").fadeIn(1000);
+        $("#Education").show();
         $("#Experience").hide();
         $("#Portfolio").hide();
     });
