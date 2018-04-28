@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     $('.nav_1').click(function(){
         $("#Home").show();
@@ -22,6 +23,7 @@ $(document).ready(function() {
         $("#Portfolio").hide();
     });
 });
+
 $(document).ready(function() {
     $('.nav_4').click(function(){
        $("#Home").hide();
@@ -30,3 +32,5 @@ $(document).ready(function() {
         $("#Portfolio").show();
     });
 });
+
+ 

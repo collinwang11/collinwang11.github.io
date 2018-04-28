@@ -4,8 +4,8 @@ body, html {
      margin-left: auto;
      margin-right: auto;
      min-width: 960px;
-     max-width: 1920px;
-     font-family: Arial, Helvetica, sans-serif;
+		   max-width: 1920px;
+     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
      background: url(background.jpg) no-repeat center fixed;
      background-size: cover;
      line-height: 30px;
@@ -16,6 +16,7 @@ body, html {
      width: 100%;
      position: relative;
      margin-top: -10%;
+     z-index: 100;
 }
  .tablink {
      background-color: inherit;
@@ -80,7 +81,7 @@ body, html {
      font-weight: 500;
 }
  .sizetext {
-     font-size: 18px 
+     font-size: 18px
 }
  .centertext {
      text-align: center;
@@ -125,18 +126,24 @@ body, html {
      margin-top: 5%;
      border-radius: 8px;
 }
- #team{
-     width: 50%;
-     background-color: inherit;
-     margin-left: 24%;
-     margin-right: auto;
-     margin-top: 5%;
-     border-radius:8px;
+#slidep, #slidee{
+ margin: auto;
+ margin-top: 30px;
 }
+
+#slidep img, #slidee img{
+ width: 70%;
+  border-radius:8px;
+  margin: auto;
+}
+ 
+#video, #website {
+  text-decoration: underline;
+ }
  #mcgilllogo{
      width: 23%;
      margin-right: 70%;
-     margin-top: -310px;
+     margin-top: -200px;
      margin-bottom: 20px;
      border-radius: 0;
 }
@@ -149,4 +156,28 @@ body, html {
  .container {
      text-align: center;
      padding: 10px 20px;
+}
+.warpper
+{
+ width: 100%;
+ flex: 1;
+ padding-bottom: 100px;
+ height: 100%;
+ min-height:100%;
+}
+
+.footer{
+ overflow: auto;
+ width: 100%;
+ bottom: 0;
+ height: 100px;
+ margin-top: 100px;
+}
+.footer p{
+ text-align: center;
+ font-size: 18px;
+}
+.socialicon{
+ width: 30px;
+ padding: 3px;
 }
